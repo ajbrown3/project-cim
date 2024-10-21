@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li><a href="#" class="nav-logo">Apple</a></li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Apple</h1>
+            <p>Discover the innovative world of Apple and shop everything iPhone, iPad, Mac, and more.</p>
+            <a href="#" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="products">
+        <div class="product">
+            <img src="placeholder.com" alt="Product 1">
+            <h2>iPhone 15 Pro</h2>
+            <p>Discover our latest innovation in smartphones.</p>
+        </div>
+        <div class="product">
+            <img src="placeholder.com" alt="Product 2">
+            <h2>MacBook Pro</h2>
+            <p>Powerful, sleek, and ready to work from anywhere.</p>
+        </div>
+        <div class="product">
+            <img src="placeholder.com" alt="Product 3">
+            <h2>Apple Watch Series 9</h2>
+            <p>Your essential companion for fitness and health.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Apple Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
