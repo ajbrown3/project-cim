@@ -1,44 +1,84 @@
-<!DOCTYPE html>
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+/* Header styling */
+header {
+  background-color: #004d40; /* University of Miami's green */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
 
-    <title>Project 1</title>
-    <meta name="author" content="Author" />
-    <meta name="description" content="Website description" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Austin Brown Project 1</h1>
-      <p>Project 1 CIM103</p>
-    </header>
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    <main>
-      <h2>Cam Ward</h2>
-      <p>University of Miami QB</p>
+/* Main content styling */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-      <h2>Senior</h2>
-      <p>West Columbia,TX</p>
+h2 {
+  font-size: 24px;
+  color: #333;
+}
 
-      <h3>2024 Season Stats</h3>
-      <ol>
-        <li>1,035 YDS</li>
-        <li>11 TD</li>
-        <li>1 INT</li>
-        <li>94.4 QBR</li>
-      </ol>
+p, li {
+  margin-bottom: 10px;
+}
 
-      <h3>Upcoming Games</h3>
-      <ul>
-        <li>Away @USF</li>
-        <li>Home vs VT</li>
-        <li>Away @CAL</li>
-      </ul>
+ol, ul {
+  padding-left: 20px;
+}
 
-      <h3>2024 Season Photos</h3>
+/* Image styling */
+img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-      <img src="camward1.jpeg" alt="Description" />
-      <img src="camward2.jpeg" alt="Description" />
+/* Add hover effect to images */
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Footer styling */
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
